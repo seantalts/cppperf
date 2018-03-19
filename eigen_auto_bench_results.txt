@@ -1,0 +1,19 @@
+2018-03-19 16:23:33
+Running ./eigen_auto_bench
+Run on (8 X 2900 MHz CPU s)
+CPU Caches:
+  L1 Data 32K (x4)
+  L1 Instruction 32K (x4)
+  L2 Unified 262K (x4)
+  L3 Unified 8388K (x1)
+-------------------------------------------------------------
+Benchmark                      Time           CPU Iterations
+-------------------------------------------------------------
+BM_EigenAuto<1>               96 ns         96 ns    7394965
+BM_EigenAuto<2>              644 ns        643 ns    1000000
+BM_EigenAuto<10>           52709 ns      52686 ns      12448
+BM_EigenAuto<100>      503838689 ns  502903000 ns          1
+BM_EigenExplicit<1>          231 ns        231 ns    3233645
+BM_EigenExplicit<2>          258 ns        258 ns    2347087
+BM_EigenExplicit<10>         644 ns        644 ns    1018004
+BM_EigenExplicit<100>      57645 ns      57597 ns      11319
