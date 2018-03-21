@@ -1,14 +1,7 @@
 #include <benchmark/benchmark.h>
 #include <Eigen/Dense>
 #include <vector>
-
-static void escape(void *p) {
-  asm volatile("" : : "g"(p) : "memory");
-}
-
-static void clobber() {
-  asm volatile("" : : : "memory");
-}
+#include "util.hpp"
 
 using namespace Eigen;
 

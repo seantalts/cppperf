@@ -1,0 +1,17 @@
+2018-03-21 15:37:31
+Running ./eigen_replicate
+Run on (8 X 2900 MHz CPU s)
+CPU Caches:
+  L1 Data 32K (x4)
+  L1 Instruction 32K (x4)
+  L2 Unified 262K (x4)
+  L3 Unified 8388K (x1)
+--------------------------------------------------------------------
+Benchmark                             Time           CPU Iterations
+--------------------------------------------------------------------
+BM_EigenReplicateFirst<16>         2977 ns       2973 ns     228745
+BM_EigenReplicateFirst<256>      740244 ns     739261 ns        923
+BM_EigenReplicateFirst<1024>   12047975 ns   11992875 ns         56
+BM_EigenReplicateAfter<16>          616 ns        616 ns    1083793
+BM_EigenReplicateAfter<256>       45917 ns      45879 ns      15042
+BM_EigenReplicateAfter<1024>    1520661 ns    1518921 ns        417

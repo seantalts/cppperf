@@ -1,4 +1,4 @@
-2018-03-19 18:27:41
+2018-03-21 15:37:10
 Running ./eigen_auto_bench
 Run on (8 X 2900 MHz CPU s)
 CPU Caches:
@@ -9,29 +9,29 @@ CPU Caches:
 --------------------------------------------------------------------
 Benchmark                             Time           CPU Iterations
 --------------------------------------------------------------------
-BM_EigenAuto<1>                      98 ns         97 ns    6544809
-BM_EigenAuto<2>                     662 ns        658 ns    1000000
-BM_EigenAuto<10>                  49680 ns      49421 ns      14399
-BM_EigenAuto<100>             535274605 ns  530787000 ns          1
-BM_EigenExplicit<1>                 236 ns        234 ns    3051385
-BM_EigenExplicit<2>                 263 ns        261 ns    2709377
-BM_EigenExplicit<10>                703 ns        696 ns    1031870
-BM_EigenExplicit<100>             61792 ns      61378 ns      10718
+BM_EigenAuto<1>                      93 ns         93 ns    6278477
+BM_EigenAuto<2>                     448 ns        447 ns    1516254
+BM_EigenAuto<10>                  48527 ns      48399 ns      13765
+BM_EigenAuto<100>             518108686 ns  516948000 ns          1
+BM_EigenExplicit<1>                 219 ns        218 ns    3079427
+BM_EigenExplicit<2>                 252 ns        252 ns    2730738
+BM_EigenExplicit<10>                672 ns        671 ns    1020066
+BM_EigenExplicit<100>             58944 ns      58876 ns      12293
 BM_EigenAutoFixed<1>                  0 ns          0 ns 1000000000
-BM_EigenAutoFixed<2>                  1 ns          1 ns 1000000000
-BM_EigenAutoFixed<10>             33412 ns      33255 ns      21223
-BM_EigenAutoFixed<100>        534966242 ns  530666000 ns          1
+BM_EigenAutoFixed<2>                  0 ns          0 ns 1000000000
+BM_EigenAutoFixed<10>             33158 ns      33120 ns      21299
+BM_EigenAutoFixed<100>        506906166 ns  505620000 ns          1
 BM_EigenExplicitFixed<1>              0 ns          0 ns 1000000000
-BM_EigenExplicitFixed<2>              2 ns          2 ns  320587683
-BM_EigenExplicitFixed<10>           348 ns        346 ns    2031317
-BM_EigenExplicitFixed<100>        59608 ns      59241 ns      12374
+BM_EigenExplicitFixed<2>              2 ns          2 ns  326740946
+BM_EigenExplicitFixed<10>           341 ns        341 ns    2034050
+BM_EigenExplicitFixed<100>        54931 ns      54853 ns      12417
 BM_EigenAutoVector<1>                 0 ns          0 ns 1000000000
 BM_EigenAutoVector<2>                 0 ns          0 ns 1000000000
-BM_EigenAutoVector<10>                1 ns          1 ns  544937916
-BM_EigenAutoVector<100>              13 ns         13 ns   45703839
-BM_EigenAutoVector<1000>             83 ns         83 ns    8389563
+BM_EigenAutoVector<10>                1 ns          1 ns  583231268
+BM_EigenAutoVector<100>              14 ns         14 ns   90427593
+BM_EigenAutoVector<1000>             78 ns         78 ns    7430840
 BM_EigenExplicitVector<1>             0 ns          0 ns 1000000000
 BM_EigenExplicitVector<2>             1 ns          1 ns 1000000000
-BM_EigenExplicitVector<10>            3 ns          3 ns  219683656
-BM_EigenExplicitVector<100>          16 ns         16 ns   45395001
-BM_EigenExplicitVector<1000>        173 ns        172 ns    4025394
+BM_EigenExplicitVector<10>            3 ns          3 ns  227376080
+BM_EigenExplicitVector<100>          22 ns         22 ns   30133967
+BM_EigenExplicitVector<1000>        167 ns        167 ns    3988195
